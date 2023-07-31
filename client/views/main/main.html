@@ -10,7 +10,10 @@
       crossorigin
       href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.7/dist/web/static/pretendard-dynamic-subset.css"
     />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
     <link rel="stylesheet" href="./../../css/main.css" />
+    <script src="./../../js/main.js" type="module"></script>
   </head>
 
   <body>
@@ -113,7 +116,7 @@
         </li>
         <li class="flex-1">
           <a
-            href="../board/board.html"
+            href="../board/index.html"
             class="flex flex-col justify-center items-center gap-[0.1875rem] py-2"
           >
             <span
@@ -160,33 +163,27 @@
     <main>
       <h2 class="sr-only">메인 메뉴</h2>
 
-      <section class="relative w-full h-[15.9375rem] bg-[#9DA1B4]">
-        <h3 class="sr-only">개발자 이야기</h3>
-        <p
-          class="text-white font-medium text-lg absolute w-[9.1875rem] leading-normal left-[30px] top-[30px]"
-        >
-          풀리지 않는 버그 속 개발자로 살아남기
-        </p>
-        <img
-          class="absolute w-[13.75rem] right-0 bottom-0"
-          src="./../../assets/images/main/mainAd.png"
-          alt="두 남자가 뒤를 보며 파이팅 하는 모습"
-        />
-        <a href="#" class="text-white absolute text-[0.6875rem] left-[30px] top-[85px]"
-          >자세히 보기</a
-        >
-        <div class="text-white text-[0.6875rem]">
-          <span class="absolute left-[1.875rem] top-[11.5rem]">01</span>
-          <img
-            src="./../../assets/images/main/bar.png"
-            alt="캐로셀 페이지바"
-            class="absolute left-[2.9375rem] top-[12rem]"
-            aria-hidden="true"
-          />
-          <span class="absolute left-[5.9375rem] top-[11.5rem]">03</span>
+      <section class="swiper w-[320px] h-[255px] relative">
+        <div class="swiper-container">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper" id="swiper-wrapper">
+            <!-- Slides content will be generated with JavaScript -->
+          </div>
+          <!-- If we need navigation buttons -->
+          <div
+            class="swiper-button-prev w-10 h-10 bg-no-repeat bg-center z-[999]"
+            style="background-image: url('./../../assets/icons/Icon/Arrow.png')"
+          ></div>
+          <div
+            class="swiper-button-next w-10 h-10 bg-no-repeat bg-center z-[999] transform scale-[-1]"
+            style="background-image: url('./../../assets/icons/Icon/Arrow.png')"
+          ></div>
+        </div>
+        <div class="pagination_container flex justify-center top-[-25px] left-2 relative gap-3">
+          <div class="swiper-pagination w-[50px] relative text-white"></div>
+          <div class="swiper-pagination2 h-3 bottom-auto mt-[0.125rem] mr-6 z-10 relative"></div>
         </div>
       </section>
-
       <nav class="topNav">
         <h3 class="sr-only">헤더 네비게이션</h3>
         <ul
@@ -362,5 +359,6 @@
         </ul>
       </section>
     </main>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   </body>
 </html>
