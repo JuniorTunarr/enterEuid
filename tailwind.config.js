@@ -80,7 +80,12 @@ module.exports = {
 };
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+};
+>>>>>>> develop
+>>>>>>> develop
 =======
 };
 >>>>>>> develop

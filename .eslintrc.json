@@ -4,7 +4,11 @@
   "rules": {
     "prettier/prettier": [
 <<<<<<< HEAD
+<<<<<<< HEAD
       "error",
+=======
+      "off",
+>>>>>>> develop
 =======
       "off",
 >>>>>>> develop
@@ -17,14 +21,20 @@
         "parser": "flow",
         "arrow-body-style": "off",
 <<<<<<< HEAD
+<<<<<<< HEAD
         "prefer-arrow-callback": "off"
 =======
+=======
+>>>>>>> develop
         "prefer-arrow-callback": "off",
         "prettier/prettier": "off",
         "no-console": "off",
         "space-comment": "off",
         "no-else-return": "off",
         "import/prefer-default-export": "off"
+<<<<<<< HEAD
+>>>>>>> develop
+=======
 >>>>>>> develop
       }
     ], //prettier에서 발생한 모든 스타일 경고를 에러로 취급한다.
@@ -52,7 +62,11 @@
     "sourceType": "module" //전체 프로젝트의 소스 타입을 'module'로 명시한다.
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> develop
 =======
 }
 >>>>>>> develop

@@ -18,7 +18,10 @@
 
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> develop
 =======
 >>>>>>> develop
 >>>>>>> develop
@@ -31,7 +34,12 @@
     @apply bg-white max-w-xs min-w-[20rem] h-full shadow-[rgba(0,0,0,0.16)_0px_0px_8px] border mx-auto border-solid border-[#e9e9e9];
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
     @apply bg-white max-w-xs min-w-[20rem] h-full shadow-[rgba(0,0,0,0.16)_0px_0px_8px] border mx-auto border-solid border-[#e9e9e9];
+=======
+    @apply bg-white max-w-xs min-w-[20rem] h-full border mx-auto border-solid border-[#e9e9e9];
+>>>>>>> develop
+>>>>>>> develop
 =======
     @apply bg-white max-w-xs min-w-[20rem] h-full border mx-auto border-solid border-[#e9e9e9];
 >>>>>>> develop
@@ -53,8 +61,11 @@
       sans-serif;
     font: inherit;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> develop
   }
   main {
     /* position: relative; */
@@ -63,15 +74,21 @@
 }
 =======
     position: relative;
+<<<<<<< HEAD
+>>>>>>> develop
+=======
 >>>>>>> develop
   }
   main {
     position: relative;
     width: 320px;
 <<<<<<< HEAD
+<<<<<<< HEAD
   }
 }
 =======
+=======
+>>>>>>> develop
     height: 100%;
   }
 }
@@ -84,4 +101,7 @@
   background-color: #719cf7;
 }
 >>>>>>> develop
+<<<<<<< HEAD
+>>>>>>> develop
+=======
 >>>>>>> develop
