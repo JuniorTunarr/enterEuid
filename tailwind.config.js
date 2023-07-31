@@ -76,4 +76,12 @@ module.exports = {
   plugins: [
 
   ],
+<<<<<<< HEAD
 };
+=======
+<<<<<<< HEAD
+};
+=======
+};
+>>>>>>> develop
+>>>>>>> develop
